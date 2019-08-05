@@ -1,0 +1,2 @@
+# VideoPlayerManager
+视频播放控件，支持listview和gridview播放本地和在线视频

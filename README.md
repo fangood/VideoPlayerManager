@@ -3,7 +3,21 @@
 
 项目中使用了开源控件VideoPlayerManager（https://github.com/danylovolokh/VideoPlayerManager） 但是发现在小米6，andorid sdk8.0有bug，因此修改了之后使用 该版本基于作者danylovolokh/VideoPlayerManager的版本为0.2.0。
 
+##使用方式  
+###Step 1. Add it in your root build.gradle at the end of repositories:
 
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+###Step 2. Add the dependency in Module
+
+dependencies {
+         implementation 'com.github.fangood.VideoPlayerManager:list-visibility-utils:0.2.0'
+         implementation 'com.github.fangood.VideoPlayerManager:video-player-manager:0.2.0'
+}
 
 # VideoPlayerManager
 This is a project designed to help controlling Android MediaPlayer class. It makes it easier to use MediaPlayer ListView and RecyclerView.

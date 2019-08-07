@@ -13,8 +13,8 @@ allprojects {
 	}
 }
 ### Step 2. Add the dependency in Module  
-dependencies {
-         implementation 'com.github.fangood.VideoPlayerManager:list-visibility-utils:0.2.0'
+dependencies {  
+         implementation 'com.github.fangood.VideoPlayerManager:list-visibility-utils:0.2.0'  
          implementation 'com.github.fangood.VideoPlayerManager:video-player-manager:0.2.0'
 }
 
